@@ -1,48 +1,19 @@
 CSCE 676 — Data Mining Project
-Market Basket Analysis & Sampling-Based Apriori Study
 
-This project explores transaction data using exploratory data analysis (EDA), basket statistics, sparsity analysis, and association rule mining. The focus is on understanding how sampling and support thresholds impact Apriori rule discovery and frequent itemset generation.
-
-The notebook contains a full workflow from behavioral feature engineering to scalable association mining experiments.
 
 ## Project Goals
 
-Perform transaction-level EDA
+The goal of this project is to build an effective recommendation system by leveraging both user behavior data and item information. Specifically, we aim to explore how different representation learning methods (e.g., collaborative filtering, Word2Vec, and TF-IDF) and ranking models can improve recommendation performance. The project focuses on understanding the impact of user interaction sequences, feature engineering, and model design on the overall system quality.
 
-Analyze basket size distribution
-
-Measure item co-occurrence sparsity
-
-Build item co-occurrence counts
-
-Implement Apriori on binary basket matrix
-
-Implement random sampling Apriori
-
-Study how sampling fraction (alpha) affects:
-
-number of rules
-
-number of frequent itemsets
-
-Derive behavioral features (gender purchase dominance)
-
-Formulate research questions from EDA findings
 
 ## Methods Used
+This project follows a typical two-stage recommendation pipeline consisting of candidate generation and ranking.
 
-pandas
+In the recall stage, we use Item-based Collaborative Filtering (ItemCF) to generate a pool of candidate items based on user interaction history. In addition, we learn item embeddings using Word2Vec by treating user interaction sequences as sentences, and apply TF-IDF on item descriptions and interaction data to capture semantic information.
 
-numpy
+In the ranking stage, we concatenate user features, item features, and multiple embedding representations, and feed them into a Deep Neural Network (DNN) to learn complex, non-linear interactions. The model is trained to predict user-item relevance and produce a refined ranking.
 
-matplotlib
+We also explore alternative approaches such as directly computing cosine similarity between embeddings for ranking, and investigate techniques like time decay to better capture the importance of recent user behaviors.
 
-Apriori (custom implementation)
 
-Random sampling Apriori
 
-Co-occurrence counting
-
-Sparsity measurement
-
-Feature engineering
