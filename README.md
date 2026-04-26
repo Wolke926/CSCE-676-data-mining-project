@@ -52,17 +52,18 @@ gensim (Word2Vec)
 
 
 ## Repository Structure
+```
+├── main_notebook.ipynb # final curated notebook
+├── checkpoints/ # previous project stages
+│── project1.ipynb
+|── project2.ipynb
+├── data/ # dataset (not included due to size)
+├── embd/ # learned embeddings (not included)
+├── models/ # trained models (not included)
+├── PPT/ # videos introduce this project
+└── README.md
+```
 
-.
-├── main_notebook.ipynb
-├── checkpoints/
-│   ├── checkpoint_1.ipynb
-│   ├── checkpoint_2.ipynb
-├── data/            # not included
-├── embd/            # not included
-├── models/          # not included
-├── requirements.txt
-├── README.md
 ## Results Summary
 
 ItemCF-based recall achieves the lowest MAP@K performance among all methods. Incorporating embedding-based approaches (Word2Vec and TF-IDF) leads to moderate improvements. The best results are obtained using Word2Vec embeddings derived from user interaction sequences, highlighting the importance of sequential behavioral information.
