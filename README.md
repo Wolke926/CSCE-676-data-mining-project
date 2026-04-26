@@ -9,11 +9,12 @@ This project aims to build an effective recommendation system by leveraging both
 
 👉 Start here: main_notebook.ipynb
 
-## Research Questions
-How effective are sequential user behavior embeddings (e.g., Word2Vec) in recommendation tasks?
-Does incorporating item content (e.g., TF-IDF features) improve recommendation performance?
-How does a two-stage recommendation pipeline (recall + ranking) compare to simpler similarity-based methods?
-What is the impact of time-aware modeling (e.g., time decay) on recommendation quality?
+## Motivation and Research Questions
+Online fashion platforms such as H&M offer thousands of products, making it difficult for customers to quickly find items they actually want. Personalized recommendation systems help solve this problem by suggesting products that match each customer’s interests and shopping history. In this project, we use H&M transaction data to explore how past purchases and product information can be used to generate useful recommendations. Our goal is to understand customer preferences and design a system that can make more relevant and personalized suggestions.
+
+Question: How can we use historical purchase data and product information to recommend the most relevant items to each H&M customer?
+
+Task: Given users’ historical purchase behaviors and static user/item attributes, the goal is to predict the top 12 items each test user is most likely to purchase in a future 7 days time window. Evaluation: MAP@K
 
 ## Methods Used
 This project follows a two-stage recommendation pipeline:
