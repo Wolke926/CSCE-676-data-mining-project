@@ -55,8 +55,8 @@ gensim (Word2Vec)
 ```
 ├── main_notebook.ipynb # final curated notebook
 ├── checkpoints/ # previous project stages
-│── project1.ipynb
-|── project2.ipynb
+│── checkpoint_1.ipynb
+|── checkpoint_2.ipynb
 ├── data/ # dataset (not included due to size)
 ├── embd/ # learned embeddings (not included)
 ├── models/ # trained models (not included)
