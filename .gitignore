@@ -1,0 +1,8 @@
+data/
+embd/
+models/
+*.csv
+*.npy
+*.model
+.ipynb_checkpoints/
+__pycache__/
