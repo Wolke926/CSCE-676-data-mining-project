@@ -7,7 +7,7 @@ Project Overview
 
 This project aims to build an effective recommendation system by leveraging both user interaction data and item information. We explore how different representation learning methods (e.g., collaborative filtering, Word2Vec, and TF-IDF) and ranking models impact recommendation performance. The focus is on understanding the role of user behavior sequences, feature engineering, and model design in improving recommendation quality.
 
-👉 Start here: main_notebook.ipynb
+👉 [Start here: main_notebook.ipynb](main_notebook.ipynb)
 
 ## Motivation and Research Questions
 Online fashion platforms such as H&M offer thousands of products, making it difficult for customers to quickly find items they actually want. Personalized recommendation systems help solve this problem by suggesting products that match each customer’s interests and shopping history. In this project, we use H&M transaction data to explore how past purchases and product information can be used to generate useful recommendations. Our goal is to understand customer preferences and design a system that can make more relevant and personalized suggestions.
