@@ -44,12 +44,13 @@ Transaction (interaction) records
 To reproduce the results, please download the dataset from the original source (e.g., Kaggle / course-provided data) and place it under the data/ directory.
 
 
-## Key Dependencies
-Python 3.x
-pandas
-numpy
-scikit-learn
-gensim (Word2Vec)
+## Key Dependencies  
+`Python 3.12.7`  
+`pandas 2.2.2`  
+`numpy 1.26.4`  
+`scikit-learn 1.5.1`  
+`gensim (Word2Vec) 4.3.3` 
+`tensorflow 2.19.0`
 
 
 ## Repository Structure
