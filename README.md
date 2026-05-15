@@ -49,7 +49,7 @@ To reproduce the results, please download the dataset from the original source (
 `pandas 2.2.2`  
 `numpy 1.26.4`  
 `scikit-learn 1.5.1`  
-`gensim (Word2Vec) 4.3.3` 
+`gensim (Word2Vec) 4.3.3`   
 `tensorflow 2.19.0`
 
 
